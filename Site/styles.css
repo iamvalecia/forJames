@@ -1,0 +1,119 @@
+
+
+* {
+    box-sizing: border-box;
+    color: #777;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*this is keeping less space from the top*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: url('images/code-bg.jpg');
+    
+}
+
+
+body {
+    background-color: black;
+    margin-left: 12%;
+    margin-right: 12%;
+    border: 2.5px solid rgb(224, 209, 75);
+    border-top: 0;
+}
+
+/*this is what keeping most of the white from the top, since a h1 is at the top*/
+h1 {
+    margin: 0;
+    font-size: 35px;
+    margin-bottom: 5%
+}
+
+header { 
+    padding-top: 20px;
+}
+
+
+#myIntro {
+    float: left;
+    padding-left: 1em;
+}
+
+
+
+
+
+
+
+#nameQuestionGreeting {
+    /* font-size: 25px; */
+    float: right;
+    padding-right: 1em;
+    /* font-family: s */
+    
+}
+
+
+#nameInput {
+    font-size: 22.5px;
+    margin-left: .5em;
+}
+
+#nameInputButton {
+    float: none;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.btn {
+    height: 23px;
+    color: black;
+    background-color: rgb(155, 11, 59);
+    border: 1px solid rgb(224, 209, 75);
+    font-weight: bold;
+    border-radius: 15%;
+}
+
+
+
+
+.nav {
+    margin: 25px;
+    
+}
+
+.nav li {
+    display: inline;
+}
+
+.main-nav li {
+    
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+}
+
+.main-nav li:first-child {
+    padding-left: inherit;
+}
+
+.main-nav li:last-child {
+    padding-right: inherit;
+}
+
+p {
+    line-height: 2;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#newUserButton {
+    margin-left: 50%;
+    margin-bottom: 1em;
+}
+
+
+
